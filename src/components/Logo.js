@@ -1,10 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import logo from '../assets/images/small-logo.png'
+import logo from '../assets/images/logo.svg'
 
-// {/* <h2 className="font-righteous text-dark text-6xl text-grey font-extrabold tracking-tighter hover:text-blue">
-//        a
-//     </h2> */}
 
 const Logo = () => {
 return (

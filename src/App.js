@@ -2,22 +2,21 @@ import React from 'react';
 import './App.css';
 import './font.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import {
-  // Home, 
+import { 
   About,   
   Projects
 } from './pages'
 
 //import { PROJECTS } from './data/portfolio';
-
 import Home from './pages/Home'
 import Nav from './components/NavBar/Nav';
 import ScrollToTop from './components/ScrollToTop';
-import SteadAfrica from './projects/SteadAfrica';
+
+import Relay from './projects/Relay'
 
 
-const App = () => {
-  
+
+const App = () => { 
 return (
 <>
 <Router>
@@ -28,11 +27,9 @@ return (
    <Route exact path="/about-me"><About /></Route> 
    <Route exact path="/projects"><Projects /></Route> 
 
-   <Route exact path="/steadafrica">
-     <SteadAfrica />
-   </Route>
+   <Route exact path="/relay"><Relay /></Route>
 
-
+   <Route exact path="/"></Route>
   </Switch>  
 
 <ScrollToTop />  

@@ -15,8 +15,8 @@ const About = () => {
          <p className="md:text-base text-sm">&#127774; Hi, it's me again</p>
       </div>
      <h4 className="mt-2 md:mt-0 text-dark text-lg sm:text-2xl md:text-4xl font-neue font-medium leading-normal sm:leading-normal md:leading-normal md:w-full">
-      I'm Ijeoma Emeruwa, a Digital Product/UX Designer based in Abuja, Nigeria.
-      Over the past year, I have focused on designing for growth and impact by simplifying complex ideas to create end-to-end holistic
+      I'm Ijeoma Emeruwa, a Digital Product/UX Designer.
+      Over the past 2 years, I have focused on designing for growth and impact by simplifying complex ideas and creating end-to-end holistic
       user experiences that improve user engagement and ensure business viability.
      </h4>
    </div>
@@ -30,9 +30,8 @@ const About = () => {
         <p className="text-sm md:text-base">&#9889; Work</p>
       </div>
      <h4 className="mt-2 md:mt-0 text-dark text-lg sm:text-2xl md:text-4xl font-neue font-medium leading-normal sm:leading-normal md:leading-normal md:w-11/12">
-       My experience includes solving UX problems in several industries such as <span className="opacity-50">FinTech</span>, <span className="opacity-50">Enterprise SaaS</span>, 
-       <span className="opacity-50"> B2B</span>, 
-       and emerging technologies such as <span className="opacity-50">Blockchain</span>, <span className="opacity-50">AI</span>, and <span className="opacity-50">Game Design</span>. 
+       My experience includes solving UX problems in several industries such as <span className="opacity-50">FinTech</span>, <span className="opacity-50">SaaS</span>, 
+       <span className="opacity-50"> B2B</span>, and <span className="opacity-50">Blockchain</span>.
        I also design <span className="opacity-50">PitchDecks</span> for startups.
      </h4>
      <div className="mt-6 md:mt-10 md:mb-11">
