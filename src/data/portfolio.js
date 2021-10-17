@@ -1,6 +1,7 @@
-import dark from '../assets/images/dark.png'
-import soon from '../assets/images/coming-soon.svg'
 
+import soon from '../assets/images/coming-soon.svg'
+import relay from '../assets/images/relay.png'
+import blockchain from '../assets/images/blockchain.png'
 
 // {
 //    id: 2,
@@ -17,14 +18,13 @@ export const PROJECTS = [
     {
        id: 1,
        project: "Relay",
-       image: dark,
+       image: relay,
        link: "/relay"
     },
     {
       id: 2,
-      project: "OpenSea",
-      image: dark,
-      link: "/nft-marketplace"
+      project: "Blockchain",
+      image: blockchain
    },
    {
       id: 3,

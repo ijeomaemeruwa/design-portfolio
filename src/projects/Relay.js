@@ -22,7 +22,7 @@ const Relay = () => {
          <p className="text-xs md:text-lg">Marketplace</p>
       </div>
       <h2 className="text-dark text-3xl md:text-6xl font-neue font-medium md:leading-tight tracking-tighter md:w-10/12">
-        Helping tech startups build authority
+        Helping tech companies build credibility
       </h2>
     </Header>
 

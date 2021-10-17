@@ -2,7 +2,7 @@ import React from 'react'
 import {PROJECTS} from '../data/portfolio'
 import Card from '../components/Card'
 import {Link} from 'react-router-dom'
-import ui from '../assets/images/Frame 11.svg'
+import ui from '../assets/images/Frame 11.jpg'
 
 //  {/* <div className="pt-8">
 //       <h4 className="font-poppins text-dark text-xl md:text-2xl font-semibold w-11/12 tracking-tight leading-tight">

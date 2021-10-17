@@ -14,7 +14,7 @@ const About = () => {
       <div className="font-neue font-medium bg-gray py-1 px-1 md:px-2 sm:pl-3 w-5/12 sm:w-3/12 md:w-2/12 rounded-full mb-1">
          <p className="md:text-base text-sm">&#127774; Hi, it's me again</p>
       </div>
-     <h4 className="mt-2 md:mt-0 text-dark text-lg sm:text-2xl md:text-4xl font-neue font-medium leading-normal sm:leading-normal md:leading-normal md:w-full">
+     <h4 className="mt-2 md:mt-0 text-dark text-lg sm:text-2xl md:text-4xl font-neue font-regular leading-normal sm:leading-normal md:leading-relaxed md:w-full">
       I'm Ijeoma Emeruwa, a Digital Product/UX Designer.
       Over the past 2 years, I have focused on designing for growth and impact by simplifying complex ideas and creating end-to-end holistic
       user experiences that improve user engagement and ensure business viability.
@@ -29,7 +29,7 @@ const About = () => {
       <div className="font-neue font-medium bg-gray py-1 pl-4 sm:pl-7 md:px-2 w-3/12 sm:w-2/12 md:w-1/12 rounded-full mb-1 md:mt-11">
         <p className="text-sm md:text-base">&#9889; Work</p>
       </div>
-     <h4 className="mt-2 md:mt-0 text-dark text-lg sm:text-2xl md:text-4xl font-neue font-medium leading-normal sm:leading-normal md:leading-normal md:w-11/12">
+     <h4 className="mt-2 md:mt-0 text-dark text-lg sm:text-2xl md:text-4xl font-neue font-regular leading-normal sm:leading-normal md:leading-relaxed md:w-11/12">
        My experience includes solving UX problems in several industries such as <span className="opacity-50">FinTech</span>, <span className="opacity-50">SaaS</span>, 
        <span className="opacity-50"> B2B</span>, and <span className="opacity-50">Blockchain</span>.
        I also design <span className="opacity-50">PitchDecks</span> for startups.
@@ -51,7 +51,7 @@ const About = () => {
       <div className="font-neue font-medium bg-gray py-1 pl-3 w-5/12 sm:w-3/12 md:w-2/12 rounded-full mb-1 md:mt-11">
          <p className="text-sm md:text-base">&#127992; Solving problems</p>
       </div>
-    <h4 className="mt-2 md:mt-0 text-dark text-lg sm:text-2xl md:text-4xl font-neue font-medium leading-normal sm:leading-normal md:leading-normal">
+    <h4 className="mt-2 md:mt-0 text-dark text-lg sm:text-2xl md:text-4xl font-neue font-regular leading-normal sm:leading-normal md:leading-relaxed">
        My process involves understanding users and stakeholders needs and working with a cross-functional team to take an
        idea from conception to launch, make decisons that align the needs of users, business, and development team, and iteratively
        improve solutions from data and feedback.
@@ -66,7 +66,7 @@ const About = () => {
       <div className="font-neue font-medium bg-gray py-1 px-1 md:pl-4 pr-0 w-4/12 sm:w-3/12 md:w-2/12 rounded-full mb-1 md:mt-11">
          <p className="text-sm md:text-base">&#129361; Goals & Vision</p>
       </div>
-    <h4 className="mt-2 md:mt-0 text-dark text-lg sm:text-2xl md:text-4xl font-neue font-medium leading-normal sm:leading-normal md:leading-normal md:w-full">
+    <h4 className="mt-2 md:mt-0 text-dark text-lg sm:text-2xl md:text-4xl font-neue font-regular leading-normal sm:leading-normal md:leading-relaxed md:w-full">
        My goals revolve around continuous learning and progression. This is why I love working with companies and people who 
        take a design-first approach to solving meaningful problems, create solutions that
        make a difference, and encourage a culture for effective collaboration and continuous development.
