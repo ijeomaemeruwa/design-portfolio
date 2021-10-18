@@ -29,7 +29,7 @@ const Hero = () => {
            <p className="md:text-base text-xs">&#127774; Hi, I'm Ijeoma Emeruwa</p>
          </div>
          <h2 className="mt-4 md:mt-0 text-dark text-3xl sm:text-5xl md:text-7xl font-neue font-medium leading-normal sm:leading-tight md:leading-tight md:w-11/12">
-           Digital Product Designer, building useful solutions & relevant experiences
+           Digital Product Designer, designing useful solutions & relevant experiences
          </h2>
        </div>
 

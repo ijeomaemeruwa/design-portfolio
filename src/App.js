@@ -7,10 +7,10 @@ import {
   Projects
 } from './pages'
 
-//import { PROJECTS } from './data/portfolio';
 import Home from './pages/Home'
 import Nav from './components/NavBar/Nav';
 import ScrollToTop from './components/ScrollToTop';
+import TopScroll from './components/TopScroll'
 
 import Relay from './projects/Relay'
 
@@ -20,6 +20,7 @@ const App = () => {
 return (
 <>
 <Router>
+  <TopScroll />
   <Nav />
 
   <Switch>
@@ -29,10 +30,8 @@ return (
 
    <Route exact path="/relay"><Relay /></Route>
 
-   <Route exact path="/"></Route>
   </Switch>  
-
-<ScrollToTop />  
+<ScrollToTop /> 
 </Router> 
 </>
 );

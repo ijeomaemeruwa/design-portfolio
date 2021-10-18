@@ -11,6 +11,9 @@ import competition from '../assets/images/1-competition.svg'
 import research from '../assets/images/1-research.svg'
 import opp from '../assets/images/1-opp.svg'
 import solutions from '../assets/images/1-solutions.jpg'
+import onboarding from '../assets/images/client-onboarding.svg'
+// import actions from '../assets/images/client-actions.png'
+// import writer from '../assets/images/writer.svg'
 
 
 
@@ -168,8 +171,31 @@ const Relay = () => {
     </div>
 
     <p className="text-dark opacity-80 md:text-2xl text-xl font-poppins md:w-10/12 md:leading-loose leading-relaxed pb-4">
-       Designs Coming Soon
+     Flexible options and clear onboarding for clients
     </p>
+    <div className="bg-gray p-8 w-full">
+     <img src={onboarding} alt="client-onboarding"/> 
+    </div>
+
+
+    <p className="text-dark opacity-80 md:text-2xl text-xl font-poppins md:w-10/12 md:leading-loose leading-relaxed pb-4 pt-11">
+     More screens coming soon
+    </p>
+
+{/* 
+    <p className="text-dark opacity-80 md:text-2xl text-xl font-poppins md:w-10/12 md:leading-loose leading-relaxed pb-4 pt-11">
+     Client actions - Monitor Dashboard & Post Jobs
+    </p>
+    <div className="bg-gray p-8 w-full">
+     <img src={actions} alt="client-actions"/> 
+    </div>
+
+    <p className="text-dark opacity-80 md:text-2xl text-xl font-poppins md:w-10/12 md:leading-loose leading-relaxed pb-4 pt-11">
+     Writer-Monitor Dashboard, Apply to jobs, and manage applications
+    </p>
+    <div className="bg-gray p-8 w-full">
+     <img src={writer} alt="client-actions"/> 
+    </div> */}
 
 
 
