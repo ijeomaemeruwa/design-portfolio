@@ -22,7 +22,7 @@ const Relay = () => {
          <p className="text-xs md:text-lg">Marketplace</p>
       </div>
       <h2 className="text-dark text-3xl md:text-6xl font-neue font-medium md:leading-tight tracking-tighter md:w-10/12">
-        Helping tech companies build credibility
+        Helping tech companies build credibility with quality content
       </h2>
     </Header>
 
@@ -153,15 +153,11 @@ const Relay = () => {
        <img src={solutions} alt="Design-solutions"/> 
       </div>
 
-      <div className="mt-11">
+      {/* <div className="mt-11">
       <p className="text-dark md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed pb-4">
         Lo-Fi 
       </p>
-      
-
-      </div>
-
-
+      </div> */}
     </div>
 
 
@@ -171,15 +167,19 @@ const Relay = () => {
       <h4 className="font-neue font-medium pb-8 text-xl md:text-3xl text-dark">Solutions</h4>
     </div>
 
+    <p className="text-dark opacity-80 md:text-2xl text-xl font-poppins md:w-10/12 md:leading-loose leading-relaxed pb-4">
+       Designs Coming Soon
+    </p>
+
 
 
   {/* Reflections */}
-  <div className="pt-10 mb-6 md:mt-11">
+  {/* <div className="pt-10 mb-6 md:mt-11">
   <h4 className="font-neue font-medium pb-8 text-xl md:text-3xl text-dark">Takeway</h4>
     <p className="text-dark opacity-80 md:text-2xl text-xl font-poppins md:w-10/12 md:leading-loose leading-relaxed pb-4">
       
     </p> 
-  </div>
+  </div> */}
 
  </div>
  </>
