@@ -2,20 +2,6 @@ import React from 'react'
 import "animate.css"
 import { Link } from "react-scroll";
 
-// import SelectedProjects from './SelectedProjects';
-
-// import welcome from '../assets/images/cole-welcome.png'
-
-// import List from '../components/List'
-
-// import WithScrollReveal from '../components/WithScrollReveal'
-
-// const RevealedList = WithScrollReveal(List)
-
-//<p className="font-dmono text-xs text-dark pb-3 md:pb-4 font-light animate__animated animate__fadeInUp animate__fast">PRODUCT DESIGNER</p>
-
-//   <div className="md:flex md:justify-center md:items-center w-11/12 md:w-10/12 mx-auto">
-
 
 const Hero = () => {
     return (
