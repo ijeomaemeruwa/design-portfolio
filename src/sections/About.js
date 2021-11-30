@@ -12,14 +12,14 @@ return (
 <div className="md:h-screen mx-auto flex flex-col justify-center w-full md:w-9/12 mt-11 md:mt-0 mb-11 md:mb-0">
    <div className="md:pb-2 pt-10 md:pt-0">
      <h4 className="mt-11 md:mt-0 text-dark text-xl sm:text-3xl md:text-5xl font-neue font-medium leading-normal sm:leading-snug md:leading-snug md:w-11/12">
-       I'm keen on crafting user experiences for mobile and web that make sure the relevant problems 
+       I'm keen on crafting delightful user experiences for mobile and web that make sure the relevant problems 
        are being addressed, through human-centered design and product thinking.
      </h4>
     </div>
 
     <div className="mt-8 md:mt-6 md:mb-11">
     <Link to="/about-me">
-      <button className="bg-gray text-dark md:text-base text-sm py-3 px-7 md:py-4 md:px-10 font-neue font-regular rounded-lg tracking-tight hover:opacity-80 animation">
+      <button className="bg-gray text-dark md:text-base text-sm py-3 px-7 md:py-4 md:px-10 font-neue font-medium rounded-lg hover:opacity-80 animation">
         Learn More
       </button>
     </Link>

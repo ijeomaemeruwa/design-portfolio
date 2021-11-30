@@ -15,7 +15,7 @@ const Footer = () => {
           </h6>
           <a href="mailto:helloijeoma@gmail.com" 
              target="_blank"  rel="noopener noreferrer">
-            <button className="bg-dark text-white md:text-base text-sm py-3 px-6 md:py-4 md:px-8 font-neue rounded-lg tracking-tight">
+            <button className="bg-dark text-white md:text-base text-sm py-3 px-6 md:py-4 md:px-8 font-neue rounded-lg">
              Send a message
             </button>
           </a>

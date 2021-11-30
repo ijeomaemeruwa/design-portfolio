@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RedesignNFT = () => {
+const Marble = () => {
     return (
         <div>
             
@@ -8,4 +8,6 @@ const RedesignNFT = () => {
     )
 }
 
-export default RedesignNFT
+export default Marble
+
+//Home and Next Project

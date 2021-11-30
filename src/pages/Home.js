@@ -12,8 +12,8 @@ const Home = () => {
      <Hero />
      <About />
      <SelectedProjects 
-       title="SelectedProjects"
-       id="selectedprojects"
+       title="Selected Projects"
+       id="projects"
      />
      <Footer />
     </>    

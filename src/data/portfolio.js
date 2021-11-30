@@ -3,15 +3,6 @@ import soon from '../assets/images/coming-soon.svg'
 import relay from '../assets/images/relay.png'
 import blockchain from '../assets/images/blockchain.png'
 
-// {
-//    id: 2,
-//    project: "Draft",
-//    title: "Improving cross-border and P2P payments for freelancers",
-//    tag: "Blockchain",
-//    client: "Demo",
-//    image: dark,
-//    link: "/projects/blockchain"
-// },
 
 
 export const PROJECTS = [
@@ -24,10 +15,13 @@ export const PROJECTS = [
     {
       id: 2,
       project: "Blockchain",
-      image: blockchain
+      image: blockchain,
+      link: "/marble-wallet"
    },
    {
       id: 3,
-      image: soon,
+      project: "Figma",
+      image: soon
+      // link: "figma-blocks"
    },
 ]

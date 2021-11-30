@@ -1,8 +1,8 @@
 import React from 'react'
 import "animate.css"
 import { Link } from "react-scroll";
-// import SelectedProjects from './SelectedProjects';
 
+// import SelectedProjects from './SelectedProjects';
 
 // import welcome from '../assets/images/cole-welcome.png'
 
@@ -16,6 +16,7 @@ import { Link } from "react-scroll";
 
 //   <div className="md:flex md:justify-center md:items-center w-11/12 md:w-10/12 mx-auto">
 
+
 const Hero = () => {
     return (
     <section className="bg-white h-full">
@@ -28,8 +29,8 @@ const Hero = () => {
          <div className="font-neue font-medium bg-gray py-1 pl-3 md:pl-5 w-6/12 sm:w-3/12 md:w-3/12 rounded-full md:mb-4">
            <p className="md:text-base text-xs">&#127774; Hi, I'm Ijeoma Emeruwa</p>
          </div>
-         <h2 className="mt-4 md:mt-0 text-dark text-3xl sm:text-5xl md:text-7xl font-neue font-medium leading-normal sm:leading-tight md:leading-tight md:w-11/12">
-           Digital Product Designer, designing useful solutions & relevant experiences
+         <h2 className="mt-4 md:mt-0 text-dark text-3xl sm:text-5xl md:text-7xl font-neue font-medium leading-normal sm:leading-tight md:leading-tight md:tracking-tight md:w-11/12">
+          Digital Product Designer, designing useful solutions and relevant experiences
          </h2>
        </div>
 
@@ -37,23 +38,25 @@ const Hero = () => {
         <div className="flex items-center mt-6 md:mt-6 w-full">
         <a href="mailto:helloijeoma@gmail.com" 
            target="_blank"  rel="noopener noreferrer">
-            <button className="bg-dark text-white md:text-base text-sm py-3 px-7 md:py-4 md:px-10 font-neue font-regular rounded-lg tracking-tight hover:opacity-80 animation">
+            <button className="bg-dark text-white md:text-base text-sm py-3 px-7 md:py-4 md:px-10 font-neue font-regular rounded-lg hover:opacity-80 animation">
              Get in Touch
             </button>
         </a>
        
 
-       <Link 
+    
+      <Link 
         activeClass="active"
-        to="selectedprojects"
+        to="projects"
         spy={true}
         smooth={true}
-        offset={-70}
-        duration={500}>
-       <button className="md:ml-6 ml-2 text-sm py-3 px-7 md:py-4 md:px-8 md:text-base font-neue font-regular rounded-lg tracking-tight bg-gray hover:text-blue animation">
-          View Recent Work
-        </button>
-       </Link>
+        offset={50}
+        duration={500}
+        className="md:ml-6 ml-2 text-sm py-3 px-7 md:py-4 md:px-8 md:text-base font-neue font-medium rounded-lg bg-gray hover:text-blue animation cursor-pointer"
+          >
+        View Recent Work
+      </Link>
+       
     </div>   
     </div>
     </div> 

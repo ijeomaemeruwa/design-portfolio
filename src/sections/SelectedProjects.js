@@ -27,10 +27,10 @@ import ui from '../assets/images/Frame 11.jpg'
 //     </div> */}
 
 
-const SelectedProjects = () => {
 
+const SelectedProjects = () => {
     return (
-    <section>
+    <section id="projects">
     <div>
 
     <div className="md:flex md:justify-center md:items-center w-11/12 md:w-10/12 mx-auto">
@@ -39,7 +39,7 @@ const SelectedProjects = () => {
       <div className="font-neue font-medium bg-gray py-1 px-3 sm:pl-7 md:px-2 w-3/12 sm:w-2/12 md:w-1/12 rounded-full mb-3 md:mt-11">
         <p className="text-sm md:text-base">&#9889; Work</p>
       </div>
-     <h2 className="text-dark text-3xl md:text-7xl font-neue font-medium md:leading-tight md:w-9/12 animate__animated animate__fadeInUp animate__fast">
+     <h2 className="text-dark text-3xl md:text-7xl font-neue font-medium md:leading-tight md:tracking-tight md:w-9/12 animate__animated animate__fadeInUp animate__fast">
      Selected Projects
      </h2>
    </div>

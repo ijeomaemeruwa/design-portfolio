@@ -22,7 +22,7 @@ const ScrollToTop = () => {
 
     return (
     <>
-    <div className="scroll bg-blue text-white opacity-80 flex items-end" onClick={handleScroll}>
+    <div className="scroll bg-dark text-white opacity-80 flex items-end" onClick={handleScroll}>
      <VscArrowUp className="icon flex m-auto text-center items-center justify-center" />     
     </div>      
     </>
