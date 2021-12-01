@@ -1,7 +1,8 @@
 
-import soon from '../assets/images/coming-soon.svg'
-import relay from '../assets/images/relay.png'
-import blockchain from '../assets/images/blockchain.png'
+// import soon from '../assets/images/coming-soon.svg'
+import relay from '../assets/images/relay.svg'
+import blockchain from '../assets/images/marble.svg'
+import bridge from '../assets/images/bridgecard.svg'
 
 
 
@@ -14,14 +15,20 @@ export const PROJECTS = [
     },
     {
       id: 2,
-      project: "Blockchain",
+      project: "Marble",
       image: blockchain,
-      link: "/marble-wallet"
+      //link: "/marble-wallet"
    },
    {
       id: 3,
-      project: "Figma",
-      image: soon
+      project: "Bridgecard",
+      image: bridge
       // link: "figma-blocks"
    },
+   // {
+   //    id: 3,
+   //    project: "Figma Spaces",
+   //    image: soon
+   //    // link: "/figma-spaces"
+   // },
 ]

@@ -28,8 +28,6 @@ const Hero = () => {
              Get in Touch
             </button>
         </a>
-       
-
     
       <Link 
         activeClass="active"
@@ -39,7 +37,7 @@ const Hero = () => {
         offset={50}
         duration={500}
         className="md:ml-6 ml-2 text-sm py-3 px-7 md:py-4 md:px-8 md:text-base font-neue font-medium rounded-lg bg-gray hover:text-blue animation cursor-pointer"
-          >
+        >
         View Recent Work
       </Link>
        
