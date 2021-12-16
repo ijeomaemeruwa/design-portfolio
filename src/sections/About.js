@@ -12,8 +12,7 @@ return (
 <div className="md:h-screen mx-auto flex flex-col justify-center w-full md:w-9/12 mt-11 md:mt-0 mb-11 md:mb-0">
    <div className="md:pb-2 pt-10 md:pt-0">
      <h4 className="mt-11 md:mt-0 text-dark text-xl sm:text-3xl md:text-5xl font-neue font-medium leading-normal sm:leading-snug md:leading-snug md:w-11/12">
-       I'm keen on crafting delightful user experiences for mobile and web that make sure the relevant problems 
-       are being addressed, through human-centered design and product thinking.
+       I'm keen on crafting delightful user experiences that translate to better business, through human-centered design and product thinking.
      </h4>
     </div>
 
