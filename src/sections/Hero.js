@@ -2,6 +2,8 @@ import React from 'react'
 import "animate.css"
 import { Link } from "react-scroll";
 
+//designing useful solutions and relevant experiences driving impact and improving user experiences.
+
 
 const Hero = () => {
     return (
@@ -16,8 +18,11 @@ const Hero = () => {
            <p className="md:text-base text-xs">&#127774; Hi, I'm Ijeoma Emeruwa</p>
          </div>
          <h2 className="mt-4 md:mt-0 text-dark text-3xl sm:text-5xl md:text-7xl font-neue font-medium leading-normal sm:leading-tight md:leading-tight md:tracking-tight md:w-11/12">
-          Digital Product Designer, designing useful solutions and relevant experiences
+          Digital Product Designer, Writer, and Illustrator.
          </h2>
+         {/* <p className="md:mt-3 font-neue font-normal text-dark text-xl sm:text-3xl md:text-xl opacity-75 md:w-8/12">
+           Currently building Bridgecard. I help Blockchain, FinTech, and SaaS companies improve business impact by solving relevant user problems.
+         </p> */}
        </div>
 
        <div className="md:w-7/12 font-neue mt-1 md:mt-4">
