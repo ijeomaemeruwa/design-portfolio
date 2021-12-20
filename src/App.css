@@ -78,10 +78,4 @@ body {
     --animate-delay: 0.5s;
 }
 
-.work {
-    background-image: url('../src/assets/images/gradient.jpg');
-    background-position: right top;
-    background-repeat: no-repeat;
-}
-
 

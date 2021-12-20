@@ -1,12 +1,15 @@
 import React from 'react'
 import Header from '../structure/Header'
 import Overview from '../structure/Overview'
+import research from '../assets/images/bridge-research.svg'
+import insights from '../assets/images/bridge-insights.svg'
+import hmw from '../assets/images/bridge-hmw.svg'
 
 const Bridgecard = () => {
     return (
     <>
     <Header>
-      <h2 className="text-dark text-3xl md:text-6xl font-neue font-medium md:leading-tight tracking-tighter md:w-10/12">
+      <h2 className="text-dark text-3xl md:text-7xl font-neue font-medium md:leading-tight tracking-tighter md:w-10/12">
         Unifying the way we manage accounts & funds
       </h2>
     </Header>
@@ -65,13 +68,14 @@ const Bridgecard = () => {
       Challenges faced when handling multiple accounts/cards
     </h4>
      <p className="text-dark opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      An average Nigerian has about 2-6 bank accounts and 2-4 debit cards they use for all their accounts. With the 
-      rise in fintech apps building creative financial solutions tailored to meet people's specific needs and provide 
-      convenience, people now have smart options that solve their financial problems or needs.
+      An average Nigerian has about 2-6 bank accounts and 2-4 debit cards for these accounts. With the 
+      rise in fintech apps building creative financial solutions tailored to meet people's specific needs, 
+      people now have smart options that solve their financial problems or needs.
     </p>
+
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      The problem with handling more than one card is that people tend to have more than one accounts associated with these cards 
-      and to get frustrated with incompetent bank services and loss. 
+      The Problem with managing more than one card/accounts is that people get frustrated with incompetent bank services, loss, and are unable to track spending.
+      This makes the process of handling funds inconvenient for most people.
     </p>
 
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
@@ -85,16 +89,17 @@ const Bridgecard = () => {
    {/* Approach & Process */}
     <div className="pt-10 mb-6 md:mt-11">
     <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
-      Understanding the Users and Validating the Problem
+      Understanding the Users and Validating Business endeavor
     </h4>
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       We were introducing a completely new product to the Nigerian financial market, so to make sure we were solving the right 
-      problem and validate our assumptions we conducted user interviews to understand how users currently experience and solve 
-      the problems they had with managing multiple accounts and cards with their banks or financial institutions.
+      problem and validate our assumptions we set a criteria for target users and conducted user interviews to understand how users currently experience and solve 
+      the problems they have with managing multiple accounts and cards with their banks or financial institutions.
     </p>
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      Images: Target User Criteria, Research Goal, Research questions
-    </p>
+
+    <div className="mb-8 mt-10">
+       <img src={research} alt="user research goals"/> 
+    </div>
     </div>
 
     
@@ -106,15 +111,16 @@ const Bridgecard = () => {
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       From our user research data analysis, we identified key patterns from target users that gave us insights into the problem.
     </p>
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      Images: Insights and Patterns
-    </p>
+
+    <div className="mb-8 mt-10">
+       <img src={insights} alt="user research insights"/> 
+    </div>
 
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      From the research data, we identified two groups of users that represented our target personas
+      We also identified our target persona and relevant problems that needed to be solved.
     </p>
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      Image: Personas(2)
+      Image: Persona(1)
     </p>
     </div>
 
@@ -125,16 +131,17 @@ const Bridgecard = () => {
        Defining the problem and Identifying opportunities
     </h4>
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-       To define the problem we needed to solve for our target users, I organized a workshop with the engineering and design team to share ideas, 
+       To define what we needed to solve, I collaborated with the engineering and design team to share ideas, 
        get feedback, determine technical capabilities, and prioritize solutions.
     </p>
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      The ideas we came up with were based on the problems identified from each user, 
+      The ideas we came up with were based on the problems identified from our target user and possible limitations, 
       which helped us discover opportunities and determine which ideas were worth pursuing:
     </p>
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      Image: Personas(2)
-    </p>
+
+    <div className="mb-8 mt-10">
+       <img src={hmw} alt="user need statement"/> 
+    </div>
     </div>
 
 
@@ -142,22 +149,73 @@ const Bridgecard = () => {
     {/* Ideation, Decisions & Testing */}
     <div className="pt-10 mb-6 md:mt-11">
     <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
-      Design
+      Design Opportinities
     </h4>
+
+    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+      Based off the prioritized ideas, we visualized and implemented these solutions and designed a user flow and lo-fidelity wireframes to highlight users' 
+      journey and key touchpoints that described tasks to help users accomplish goals
+      and focused on the key functional aspects to test the specific user paths, respectively.
+    </p>
+    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+      Image: User Flow/IA
+    </p>
     </div>
 
-
-    <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
-      Key Decisions
-    </h4>
-    </div>
 
 
     <div className="pt-10 mb-6 md:mt-11">
     <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Testing, Validation, & Iterations
     </h4>
+    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+      
+    </p>
+    </div>
+
+
+
+    <div className="pt-10 mb-6 md:mt-11">
+    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+      Key Decisions
+    </h4>
+
+    <div className="mt-6">
+    <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
+      Extra security layer for users to be protected against potential fraud.
+    </p>
+    <p>
+      
+    </p>
+    </div>
+
+    <div className="mt-11">
+    <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
+      Bank network notifications/alerts that helps users understand what is 
+      going on at every point during a transaction
+    </p>
+    <p>
+      
+    </p>
+    </div>
+
+    <div className="mt-11">
+    <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
+      Type of card request and card activation process to ensure convenience and accommodate preference
+    </p>
+    <p>
+      
+    </p>
+    </div>
+
+    <div className="mt-11">
+    <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
+      Setting up auto-payments to manage spending and track spending activities.
+    </p>
+    <p>
+      
+    </p>
+    </div>
     </div>
 
 
@@ -165,8 +223,12 @@ const Bridgecard = () => {
     {/* Ideation, Decisions & Iterations */}
     <div className="pt-10 mb-6 md:mt-11">
     <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
-      Outcome
+      Business Outcome & Impact
     </h4>
+
+    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+      This project is currently in the development stage and beta testing will commence afterwards. Join the waitlist here.
+    </p>
     </div>
 
 

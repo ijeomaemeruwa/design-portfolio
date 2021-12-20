@@ -1,6 +1,5 @@
 
 import soon from '../assets/images/coming-soon.svg'
-// import relay from '../assets/images/relay.svg'
 import blockchain from '../assets/images/marble.svg'
 import bridge from '../assets/images/bridgecard.svg'
 

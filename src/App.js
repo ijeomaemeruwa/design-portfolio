@@ -12,7 +12,6 @@ import Nav from './components/NavBar/Nav';
 import ScrollToTop from './components/ScrollToTop';
 import TopScroll from './components/TopScroll'
 
-import Relay from './projects/Relay'
 import Bridgecard from './projects/Bridgecard'
 import Marble from './projects/Marble'
 
@@ -30,7 +29,6 @@ return (
    <Route exact path="/about-me"><About /></Route> 
    <Route exact path="/projects"><Projects /></Route> 
 
-   <Route exact path="/relay"><Relay /></Route>
    <Route exact path="/bridgecard"><Bridgecard /></Route>
    <Route exact path="/marble-wallet"><Marble /></Route>
   </Switch>  
