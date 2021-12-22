@@ -21,7 +21,7 @@ const Marble = () => {
     </Header>
 
     <div className="mb-8 mt-10">
-       <img src={splash} alt="splash screen"/> 
+      <img src={splash} loading="lazy" alt="splash screen"/> 
     </div> 
 
 
@@ -69,7 +69,7 @@ const Marble = () => {
     </Overview>
 
     <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+    <h4 className="text-dark md:pb-8 pb-6 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       The Problem
     </h4>
     <p className="text-dark opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
@@ -81,22 +81,19 @@ const Marble = () => {
         <li className="py-4">Uncertainty regarding the level of security & trust</li>
       </ul>
     </p>
-
     <p className="text-dark pt-10 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       <strong>The Goal</strong> was to look into the pains & frustrations experienced by users when using De-Fi crypto wallets and articulate my approach 
       to understanding and solving the UX challenges with crypto wallets. 
     </p>
     </div>
-
-
     <div className="mb-8 mt-10">
-       <img src={ux} alt="blockchain ux"/> 
+      <img src={ux} loading="lazy" alt="blockchain ux"/> 
     </div> 
 
 
 
     <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+    <h4 className="text-dark md:pb-8 pb-4 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       My Role
     </h4>
     <p className="text-dark opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
@@ -109,11 +106,11 @@ const Marble = () => {
 
    {/* Approach & Process */}
     <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+    <h4 className="text-dark md:pb-8 pb-6 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Gathering Insights into what problems I needed to solve
     </h4>
 
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       After researching the ecosystem and understanding how De-fi wallets work, I kicked things off by conducting:
       <ul className="mt-6 md:leading-relaxed leading-relaxed list-disc">
         <li>Market research to understand the current flow and offerings of common De-Fi wallets</li>
@@ -121,7 +118,7 @@ const Marble = () => {
       </ul> 
     </p>
       <div className="mb-8 mt-10">
-       <img src={marketResearch} alt="market research insights"/> 
+       <img src={marketResearch} loading='lazy' alt="market research insights"/> 
       </div>
 
     <p className="text-dark md:my-10 md:py-10 pt-5 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
@@ -129,13 +126,15 @@ const Marble = () => {
      I conducted user interview to validate my findings and assumptions about the problem. 
     </p>
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-     The user research helped me identify 3 primary UX problems users faced when using de-fi crypto wallets:     
-     <ul className="mt-6 md:leading-relaxed md:text-4xl text-2xl text-dark leading-relaxed list-disc">
-        <li>Little to no transparency when performing transactions</li>
-        <li className="mt-6">Not easy to navigate because of busy interface & poor labelling</li>
-        <li className="mt-6">High barrier to entry for new users</li>
-      </ul>
+     The user research helped me identify 3 primary UX problems users faced when using de-fi crypto wallets:    
     </p>
+    <ul className="md:mt-6 py-10 md:leading-tight font-neue md:text-5xl text-2xl text-dark leading-relaxed list-disc">
+      <li>Little to no transparency when performing transactions</li>
+      <li className="pt-6 md:pt-6 md:mt-8">Not easy to navigate because of busy interface & poor labelling</li>
+      <li className="pt-6 md:pt-6 md:mt-8">High barrier to entry for new users</li>
+    </ul>
+
+
 
     <p className="text-dark md:my-10 md:pt-10 pt-5 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
        Talking to the partcipants and identifying patterns also revealed
@@ -150,15 +149,15 @@ const Marble = () => {
     
 
     <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+    <h4 className="text-dark md:pb-8 pb-6 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Identifying Opportunities and Solving the Problem
     </h4>
-    <p className="text-dark mt-10 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-10 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       From the key learnings and insights discovered, 
       I converted our key problems into opportunities to solve based on user's needs.
     </p>
     <div className="mb-8 mt-10">
-       <img src={hmw} alt="hmw-need statement"/> 
+       <img src={hmw} loading='lazy' alt="hmw-need statement"/> 
     </div>
    
 
@@ -167,7 +166,7 @@ const Marble = () => {
       User Flow
     </p>
     <div className="mb-8 mt-4">
-      <img src={flowchart} alt="user flow/IA"/> 
+      <img src={flowchart} loading='lazy' alt="user flow/IA"/> 
     </div>
     </div>
 
@@ -206,10 +205,10 @@ const Marble = () => {
 
     {/* Key Takeaways ad Next Steps */}
     <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+    <h4 className="text-dark md:pb-8 pb-6 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Learnings & Takeaways
     </h4>
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       My experience working in the Blockchain De-Fi industry allows me explore the never ending possibilities. The UX of blockchain
       is still complex and it is important to design solutions that are easy to understand and functional enough to help 
       people stay in control & complete tasks.

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import './App.css';
 import './font.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -12,9 +12,11 @@ import Nav from './components/NavBar/Nav';
 import ScrollToTop from './components/ScrollToTop';
 import TopScroll from './components/TopScroll'
 
-import Bridgecard from './projects/Bridgecard'
-import Marble from './projects/Marble'
-import Staple from './projects/Staple'
+import Loader from './components/Loader'
+
+const Bridgecard = React.lazy(() => import('./projects/Bridgecard'));
+const Marble = React.lazy(() => import('./projects/Marble'));
+const Staple = React.lazy(() => import('./projects/Staple'));
 
 
 
@@ -30,14 +32,32 @@ return (
    <Route exact path="/about-me"><About /></Route> 
    <Route exact path="/projects"><Projects /></Route> 
 
-   <Route exact path="/bridgecard"><Bridgecard /></Route>
-   <Route exact path="/marble-wallet"><Marble /></Route>
-   <Route exact path="/staple"><Staple /></Route>
+
+   <Route exact path="/bridgecard">
+    <Suspense fallback={<Loader />}>
+     <Bridgecard />
+    </Suspense >
+   </Route>
+
+   <Route exact path="/marble-wallet">
+    <Suspense fallback={<Loader />}>
+     <Marble />
+    </Suspense >
+   </Route>
+
+   <Route exact path="/staple">
+    <Suspense fallback={<Loader />}>
+      <Staple />
+    </Suspense >
+   </Route>
+
   </Switch>  
 <ScrollToTop /> 
 </Router> 
 </>
 );
 }
+
+
 
 export default App;

@@ -7,8 +7,14 @@ import hmw from '../assets/images/bridge-hmw.svg'
 import persona from '../assets/images/bridge-persona.svg'
 import testing from '../assets/images/bridge-testing criteria.svg'
 import splash from '../assets/images/bridge-splash screen.svg'
+import network from '../assets/images/bank-network.gif'
+import mount from '../assets/images/auto-mount.gif'
+import card from '../assets/images/card-request.gif'
+import security from '../assets/images/picture-password.gif'
 import Contact from '../pages/Contact'
 import {Link} from 'react-router-dom'
+
+
 
 
 
@@ -22,11 +28,11 @@ const Bridgecard = () => {
     </Header>
 
     <div className="mb-8 mt-10">
-       <img src={splash} alt="splash screen"/> 
+      <img src={splash} loading='lazy' alt="splash screen"/> 
     </div> 
 
+
     <div className="md:my-11 my-10 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
-    
     {/* Intro */}
     <div className="mb-10 flex justify-between flex-wrap w-10/12 md:w-10/12">
      <div className="mb-4 md:mb-0">
@@ -88,7 +94,7 @@ const Bridgecard = () => {
 
 
     <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+    <h4 className="text-dark pb-8 pt-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Challenges faced when handling multiple accounts/cards
     </h4>
      <p className="text-dark opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
@@ -97,7 +103,7 @@ const Bridgecard = () => {
       people now have smart options that solve their financial problems or needs.
     </p>
 
-    <p className="text-dark md:my-10 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark py-8 md:my-10 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
      <b>The Challenges</b> with managing more than one card/accounts makes the process inconvenient for most people:
      <ul className="mt-6 md:leading-relaxed md:text-2xl text-xl text-dark leading-relaxed list-disc">
         <li>People get frustrated with incompetent bank services</li>
@@ -116,10 +122,10 @@ const Bridgecard = () => {
 
    {/* Approach & Process */}
     <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+    <h4 className="text-dark md:pb-8 pb-6 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Understanding the Users and Validating Business endeavor
     </h4>
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       We were introducing a completely new product to the Nigerian financial market, so to make sure we were solving the right 
       problem and validate our assumptions we set a criteria for target users and conducted user interviews. 
     </p>
@@ -131,10 +137,10 @@ const Bridgecard = () => {
     
 
     <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+    <h4 className="text-dark md:pb-8 pb-6 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Discovering Patterns & Insights
     </h4>
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       From our user research data analysis, we identified key patterns from target users that gave us insights into the problem.
     </p>
     <div className="mb-8 mt-10">
@@ -152,10 +158,10 @@ const Bridgecard = () => {
 
 
     <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+    <h4 className="text-dark md:pb-8 pb-6 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
        Defining the problem and Identifying opportunities
     </h4>
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       I collaborated with the engineering and design team to define <b>what we needed to solve</b> to imrove how users managed multiple accounts. 
       This way we were able to share ideas, get feedback, determine technical capabilities, and prioritize solutions.
     </p>
@@ -172,10 +178,10 @@ const Bridgecard = () => {
 
     {/* Ideation, Decisions & Testing */}
     <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+    <h4 className="text-dark md:pb-8 pb-6 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Design Opportinities
     </h4>
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       Based off the prioritized ideas, we visualized and implemented these solutions and designed a <b>user flow</b> and <b>low-fidelity</b> wireframes to highlight users' journey and key touchpoints that described tasks to help users accomplish goals
       and focused on the key functional aspects to test the specific user paths, respectively.
     </p>
@@ -184,10 +190,10 @@ const Bridgecard = () => {
 
 
     <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+    <h4 className="text-dark md:pb-8 pb-6 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Testing, Validation, & Iterations
     </h4>
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       To test and validate the hypothesis through low-fidelity wireframes, we conducted usability testing 
       to observe behavior and ask questions to help us understand their thoughts and feelings while using the product. 
     </p>
@@ -221,7 +227,6 @@ const Bridgecard = () => {
     <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Key Decisions & Solutions
     </h4>
-
     <h3 className="text-dark md:text-5xl md:py-11 font-medium md:w-11/12 text-xl font-neue md:leading-tight leading-relaxed">
       A single source of truth to help users easily and securely merge financial accounts and manage funds.
     </h3>
@@ -230,48 +235,53 @@ const Bridgecard = () => {
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
       Extra security layer for users to be protected against potential fraud.
     </p>
-    <p>
-      
-    </p>
+    <div className="mb-8 mt-10">
+       <img src={security} loading="lazy" alt="password security prototype"/> 
     </div>
+    </div>
+
 
     <div className="py-11">
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
       Bank network notifications/alerts that helps users understand what is 
       going on at every point during a transaction
     </p>
-    <p>
-      
-    </p>
+    <div className="mb-8 mt-10">
+       <img src={network} loading="lazy" alt="bank network prototype"/> 
     </div>
+    </div>
+
 
     <div className="py-11">
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
       Type of card request and card activation process to ensure convenience and accommodate preference
     </p>
-    <p>
-      
-    </p>
+    <div className="mb-8 mt-10">
+       <img src={card} loading="lazy" alt="card request prototype"/> 
     </div>
+    </div>
+
 
     <div className="py-11">
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
       Setting up auto-payments to manage spending and track spending activities.
     </p>
-    <p>
-      
-    </p>
+    <div className="mb-8 mt-10">
+       <img src={mount} loading="lazy" alt="auto-payment"/> 
     </div>
     </div>
+
+   
 
 
 
     {/* Ideation, Decisions & Iterations */}
-    <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+    <div className="pt-10 mb-6 md:pt-11">
+    <h4 className="text-dark md:pb-8 pb-6 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Business Outcome & Impact
     </h4>
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    
+    <p className="text-dark md:mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       This project is currently in the development stage and beta testing will commence afterwards. <a 
       href="https://bridgecard.co/" target="_blank"  rel="noopener noreferrer" className="text-blue">
         Join the waitlist here
@@ -284,10 +294,10 @@ const Bridgecard = () => {
 
     {/* Key Takeaways ad Next Steps */}
     <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+    <h4 className="text-dark md:pb-8 pb-6 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Key Takeaways & Next steps
     </h4>
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       As a first time lead, communication was a problem amongst the teams. 
       By prioritizing open communication, I was able to improve how the engineering & product team 
       collaborated at each step of the design process and shared ideas. 
@@ -314,9 +324,9 @@ const Bridgecard = () => {
         <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Staple</h3>
       </div>
     </div>
+
+    </div>
     </div>    
-
-
     <Contact />   
     </>
     )
