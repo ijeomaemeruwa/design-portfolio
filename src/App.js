@@ -14,6 +14,7 @@ import TopScroll from './components/TopScroll'
 
 import Bridgecard from './projects/Bridgecard'
 import Marble from './projects/Marble'
+import Staple from './projects/Staple'
 
 
 
@@ -31,6 +32,7 @@ return (
 
    <Route exact path="/bridgecard"><Bridgecard /></Route>
    <Route exact path="/marble-wallet"><Marble /></Route>
+   <Route exact path="/staple"><Staple /></Route>
   </Switch>  
 <ScrollToTop /> 
 </Router> 

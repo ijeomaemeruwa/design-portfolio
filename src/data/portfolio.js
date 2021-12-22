@@ -28,6 +28,6 @@ export const PROJECTS = [
       id: 3,
       project: "Figma Spaces",
       image: soon
-      // link: "/figma-spaces"
+      //link: "/staple"
    }
 ]

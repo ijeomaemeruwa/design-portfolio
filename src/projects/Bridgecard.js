@@ -4,6 +4,13 @@ import Overview from '../structure/Overview'
 import research from '../assets/images/bridge-research.svg'
 import insights from '../assets/images/bridge-insights.svg'
 import hmw from '../assets/images/bridge-hmw.svg'
+import persona from '../assets/images/bridge-persona.svg'
+import testing from '../assets/images/bridge-testing criteria.svg'
+import splash from '../assets/images/bridge-splash screen.svg'
+import Contact from '../pages/Contact'
+import {Link} from 'react-router-dom'
+
+
 
 const Bridgecard = () => {
     return (
@@ -14,6 +21,10 @@ const Bridgecard = () => {
       </h2>
     </Header>
 
+    <div className="mb-8 mt-10">
+       <img src={splash} alt="splash screen"/> 
+    </div> 
+
     <div className="md:my-11 my-10 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     
     {/* Intro */}
@@ -23,8 +34,7 @@ const Bridgecard = () => {
        <ul className="font-neue text-dark opacity-70 text-lg leading-loose">
          <li>Lead Product Designer</li>
          <li>UX Strategy</li>
-         <li>User Research</li>
-         <li>UX Design</li>
+         <li>Interactive prototyping</li>
        </ul>
      </div>
 
@@ -63,6 +73,20 @@ const Bridgecard = () => {
       </p>
     </Overview>
 
+   
+
+
+    <div className="pt-10 mb-6 md:mt-11">
+    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+      My Role
+    </h4>
+    <p className="text-dark opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+      I led the product strategy and design from conception to implementation on a team of 3 and facilitated the design process
+      from research to design handoff.
+    </p>
+    </div>
+
+
     <div className="pt-10 mb-6 md:mt-11">
     <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Challenges faced when handling multiple accounts/cards
@@ -73,13 +97,17 @@ const Bridgecard = () => {
       people now have smart options that solve their financial problems or needs.
     </p>
 
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      The Problem with managing more than one card/accounts is that people get frustrated with incompetent bank services, loss, and are unable to track spending.
-      This makes the process of handling funds inconvenient for most people.
+    <p className="text-dark md:my-10 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+     <b>The Challenges</b> with managing more than one card/accounts makes the process inconvenient for most people:
+     <ul className="mt-6 md:leading-relaxed md:text-2xl text-xl text-dark leading-relaxed list-disc">
+        <li>People get frustrated with incompetent bank services</li>
+        <li className="mt-2">Unable to track spending</li>
+        <li className="mt-2">Loss of debit cards</li>
+      </ul>
     </p>
 
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      My Goal was to design a secure, simple, and convenient way for users to manage funds, multiple bank accounts, 
+    <p className="text-dark md:pt-10 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <b>The Goal</b> was to design a secure, simple, and convenient way for users to manage funds, multiple bank accounts, 
       and digital wallets with one debit card.
     </p>
     </div>
@@ -93,12 +121,10 @@ const Bridgecard = () => {
     </h4>
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       We were introducing a completely new product to the Nigerian financial market, so to make sure we were solving the right 
-      problem and validate our assumptions we set a criteria for target users and conducted user interviews to understand how users currently experience and solve 
-      the problems they have with managing multiple accounts and cards with their banks or financial institutions.
+      problem and validate our assumptions we set a criteria for target users and conducted user interviews. 
     </p>
-
     <div className="mb-8 mt-10">
-       <img src={research} alt="user research goals"/> 
+      <img src={research} alt="user research goals"/> 
     </div>
     </div>
 
@@ -111,17 +137,16 @@ const Bridgecard = () => {
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       From our user research data analysis, we identified key patterns from target users that gave us insights into the problem.
     </p>
-
     <div className="mb-8 mt-10">
        <img src={insights} alt="user research insights"/> 
     </div>
 
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      We also identified our target persona and relevant problems that needed to be solved.
+      We also identified our <b>Target Persona</b> and relevant problems that needed to be solved.
     </p>
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      Image: Persona(1)
-    </p>
+    <div className="mb-8 mt-10">
+       <img src={persona} alt="user persona"/> 
+    </div>
     </div>
 
 
@@ -131,14 +156,13 @@ const Bridgecard = () => {
        Defining the problem and Identifying opportunities
     </h4>
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-       To define what we needed to solve, I collaborated with the engineering and design team to share ideas, 
-       get feedback, determine technical capabilities, and prioritize solutions.
+      I collaborated with the engineering and design team to define <b>what we needed to solve</b> to imrove how users managed multiple accounts. 
+      This way we were able to share ideas, get feedback, determine technical capabilities, and prioritize solutions.
     </p>
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       The ideas we came up with were based on the problems identified from our target user and possible limitations, 
       which helped us discover opportunities and determine which ideas were worth pursuing:
     </p>
-
     <div className="mb-8 mt-10">
        <img src={hmw} alt="user need statement"/> 
     </div>
@@ -151,14 +175,9 @@ const Bridgecard = () => {
     <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Design Opportinities
     </h4>
-
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      Based off the prioritized ideas, we visualized and implemented these solutions and designed a user flow and lo-fidelity wireframes to highlight users' 
-      journey and key touchpoints that described tasks to help users accomplish goals
+      Based off the prioritized ideas, we visualized and implemented these solutions and designed a <b>user flow</b> and <b>low-fidelity</b> wireframes to highlight users' journey and key touchpoints that described tasks to help users accomplish goals
       and focused on the key functional aspects to test the specific user paths, respectively.
-    </p>
-    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      Image: User Flow/IA
     </p>
     </div>
 
@@ -169,18 +188,45 @@ const Bridgecard = () => {
       Testing, Validation, & Iterations
     </h4>
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      
+      To test and validate the hypothesis through low-fidelity wireframes, we conducted usability testing 
+      to observe behavior and ask questions to help us understand their thoughts and feelings while using the product. 
     </p>
+    <p className="text-dark mt-6 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+      Goals 
+      <ul className="mt-2 md:leading-relaxed opacity-80 leading-relaxed list-disc">
+        <li>To determine whether or not the users' needs are being met and whether the user experience is ideal.</li>
+        <li className="mt-4">To measure usability and identify any issues in the user flow.</li>
+      </ul>
+    <div className="my-11">
+      <img src={testing} alt="user testing criteria"/> 
+    </div>
+    </p>
+
+    <p className="text-dark mt-6 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+      Insights & User Feedback 
+    </p>
+    <p className="text-dark mt-2 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+      Based on user feedback, the design went through 3 iterations and yielded more positive feedback and 
+      improved average duration & sucess rates before moving on to the high fidelity mockups for the MVP.
+    </p>
+
+     {/* <div className="mb-8 mt-10">
+      <img src={testing} alt="user testing criteria"/> 
+    </div> */}
     </div>
 
 
 
     <div className="pt-10 mb-6 md:mt-11">
     <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
-      Key Decisions
+      Key Decisions & Solutions
     </h4>
 
-    <div className="mt-6">
+    <h3 className="text-dark md:text-5xl md:py-11 font-medium md:w-11/12 text-xl font-neue md:leading-tight leading-relaxed">
+      A single source of truth to help users easily and securely merge financial accounts and manage funds.
+    </h3>
+
+    <div className="py-11">
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
       Extra security layer for users to be protected against potential fraud.
     </p>
@@ -189,7 +235,7 @@ const Bridgecard = () => {
     </p>
     </div>
 
-    <div className="mt-11">
+    <div className="py-11">
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
       Bank network notifications/alerts that helps users understand what is 
       going on at every point during a transaction
@@ -199,7 +245,7 @@ const Bridgecard = () => {
     </p>
     </div>
 
-    <div className="mt-11">
+    <div className="py-11">
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
       Type of card request and card activation process to ensure convenience and accommodate preference
     </p>
@@ -208,7 +254,7 @@ const Bridgecard = () => {
     </p>
     </div>
 
-    <div className="mt-11">
+    <div className="py-11">
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
       Setting up auto-payments to manage spending and track spending activities.
     </p>
@@ -225,9 +271,11 @@ const Bridgecard = () => {
     <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Business Outcome & Impact
     </h4>
-
     <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      This project is currently in the development stage and beta testing will commence afterwards. Join the waitlist here.
+      This project is currently in the development stage and beta testing will commence afterwards. <a 
+      href="https://bridgecard.co/" target="_blank"  rel="noopener noreferrer" className="text-blue">
+        Join the waitlist here
+      </a>
     </p>
     </div>
 
@@ -239,10 +287,37 @@ const Bridgecard = () => {
     <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Key Takeaways & Next steps
     </h4>
+    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+      As a first time lead, communication was a problem amongst the teams. 
+      By prioritizing open communication, I was able to improve how the engineering & product team 
+      collaborated at each step of the design process and shared ideas. 
+    </p>
+    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+      Creating a strategy for product development helped us validate business endaevor and make decisions that
+      focused on aligning the user needs with business goals.
+    </p>
+    <p className="text-dark mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+      <strong>Next steps:</strong> Beta-testing, Iterations, and Product launch.
+    </p>
     </div>
 
 
-    </div>       
+    {/* Next & Previous */}
+    <div className="flex justify-between items-center font-neue" style={{marginTop: "10rem", marginBottom: "3rem"}}>
+      <Link to="/marble-wallet">
+        <p className="text-xs md:text-sm pb-2 opacity-80">Previous</p>
+        <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Marble-wallet</h3>
+      </Link>
+
+      <div>
+        <p className="text-xs md:text-sm pb-2 opacity-80">Next</p>
+        <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Staple</h3>
+      </div>
+    </div>
+    </div>    
+
+
+    <Contact />   
     </>
     )
 }
@@ -250,3 +325,5 @@ const Bridgecard = () => {
 export default Bridgecard
 
 //Home and Next Project
+// className="flex flex-col text-right"
+// bg-gray py-11 px-8 w-full rounded-lg
