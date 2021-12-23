@@ -7,15 +7,17 @@ import hmw from '../assets/images/bridge-hmw.svg'
 import persona from '../assets/images/bridge-persona.svg'
 import testing from '../assets/images/bridge-testing criteria.svg'
 import splash from '../assets/images/bridge-splash screen.svg'
-import network from '../assets/images/bank-network.gif'
-import mount from '../assets/images/auto-mount.gif'
-import card from '../assets/images/card-request.gif'
-import security from '../assets/images/picture-password.gif'
+import network from '../assets/images/bank-network.mp4'
+import mount from '../assets/images/auto-mount .mp4'
+// import card from '../assets/images/card-request.gif'
+
+import card from '../assets/images/card-request.mp4'
+import security from '../assets/images/picture-password.mp4'
 import Contact from '../pages/Contact'
 import {Link} from 'react-router-dom'
 
 
-
+// <div className="md:my-11 my-10 mx-auto flex flex-col justify-center w-11/12 md:w-8/12"></div>
 
 
 const Bridgecard = () => {
@@ -32,7 +34,7 @@ const Bridgecard = () => {
     </div> 
 
 
-    <div className="md:my-11 my-10 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
+  <div className="md:my-11 my-10 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     {/* Intro */}
     <div className="mb-10 flex justify-between flex-wrap w-10/12 md:w-10/12">
      <div className="mb-4 md:mb-0">
@@ -220,68 +222,72 @@ const Bridgecard = () => {
       <img src={testing} alt="user testing criteria"/> 
     </div> */}
     </div>
+  </div>
 
 
-
-    <div className="pt-10 mb-6 md:mt-11">
+  <div className="md:my-11 my-10 ">
+    <div className="pt-10 mb-6 md:mt-11 md:my-11 my-10 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Key Decisions & Solutions
     </h4>
     <h3 className="text-dark md:text-5xl md:py-11 font-medium md:w-11/12 text-xl font-neue md:leading-tight leading-relaxed">
       A single source of truth to help users easily and securely merge financial accounts and manage funds.
     </h3>
+    </div>
 
-    <div className="py-11">
+
+    <div className="py-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
       Extra security layer for users to be protected against potential fraud.
     </p>
-    <div className="mb-8 mt-10">
-       <img src={security} loading="lazy" alt="password security prototype"/> 
     </div>
+    <div className="mb-8 mt-10 flex mx-auto justify-center">
+      <video src={security} controls loading="lazy" alt="password security prototype"/> 
     </div>
+    
 
 
-    <div className="py-11">
+    <div className="py-11 md:my-11 my-10 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
       Bank network notifications/alerts that helps users understand what is 
       going on at every point during a transaction
     </p>
-    <div className="mb-8 mt-10">
-       <img src={network} loading="lazy" alt="bank network prototype"/> 
     </div>
+    <div className="mb-8 mt-10 flex mx-auto justify-center">
+      <video src={network} controls loading="lazy" alt="bank network prototype"/> 
     </div>
+   
 
 
-    <div className="py-11">
+    <div className="py-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
       Type of card request and card activation process to ensure convenience and accommodate preference
     </p>
-    <div className="mb-8 mt-10">
-       <img src={card} loading="lazy" alt="card request prototype"/> 
     </div>
+    <div className="mb-8 mt-10 flex mx-auto justify-center">
+      <video src={card} controls loading="lazy" alt="card request prototype"/> 
     </div>
+   
 
 
-    <div className="py-11">
+    <div className="py-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
       Setting up auto-payments to manage spending and track spending activities.
     </p>
-    <div className="mb-8 mt-10">
-       <img src={mount} loading="lazy" alt="auto-payment"/> 
     </div>
+    <div className="mb-8 mt-10 flex mx-auto justify-center">
+      <video src={mount} controls loading="lazy" alt="auto-payment" /> 
     </div>
-
-   
 
 
 
     {/* Ideation, Decisions & Iterations */}
-    <div className="pt-10 mb-6 md:pt-11">
+    <div className="pt-10 mb-6 md:mt-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <h4 className="text-dark md:pb-8 pb-6 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Business Outcome & Impact
     </h4>
     
-    <p className="text-dark md:mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-4 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       This project is currently in the development stage and beta testing will commence afterwards. <a 
       href="https://bridgecard.co/" target="_blank"  rel="noopener noreferrer" className="text-blue">
         Join the waitlist here
@@ -293,7 +299,7 @@ const Bridgecard = () => {
 
 
     {/* Key Takeaways ad Next Steps */}
-    <div className="pt-10 mb-6 md:mt-11">
+    <div className="pt-10 mb-6 md:mt-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <h4 className="text-dark md:pb-8 pb-6 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Key Takeaways & Next steps
     </h4>
@@ -313,19 +319,18 @@ const Bridgecard = () => {
 
 
     {/* Next & Previous */}
-    <div className="flex justify-between items-center font-neue" style={{marginTop: "10rem", marginBottom: "3rem"}}>
+    <div className="flex justify-between items-center font-neue mx-auto w-11/12 md:w-8/12" style={{marginTop: "10rem", marginBottom: "3rem"}}>
       <Link to="/marble-wallet">
         <p className="text-xs md:text-sm pb-2 opacity-80">Previous</p>
         <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Marble-wallet</h3>
       </Link>
-
       <div>
         <p className="text-xs md:text-sm pb-2 opacity-80">Next</p>
-        <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Staple</h3>
+        <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Staple-Coming Soon</h3>
       </div>
     </div>
 
-    </div>
+
     </div>    
     <Contact />   
     </>

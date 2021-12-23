@@ -25,7 +25,9 @@ const Staple = () => {
          <li>UX Design</li>
          <li>Visual Design</li>
          <li>Interaction Design</li>
+         <li>Prototyping</li>
          <li>Design Systems</li>
+         <li>Optimizing for better design handoffs</li>
        </ul>
      </div>
 
@@ -57,7 +59,7 @@ const Staple = () => {
     {/* Overview */}
     <Overview>
     <p className="text-dark opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed pb-4">
-      
+      About the project
     </p>
     </Overview>
 
@@ -68,7 +70,7 @@ const Staple = () => {
       The Problem
     </h4>
     <p className="text-dark opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-       
+      What am I trying to solve for businesses & why 
     </p>
     </div>
 
@@ -96,12 +98,32 @@ const Staple = () => {
     </p>
     </div>
 
+
+    <div className="pt-10 mb-6 md:mt-11">
+    <h4 className="text-dark md:pb-8 pb-4 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+      UX Design-IA/User Flow/Task Flows
+    </h4>
+    <p className="text-dark opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+       Touchpoints & Goals
+    </p>
+    </div>
+
+
+    <div className="pt-10 mb-6 md:mt-11">
+    <h4 className="text-dark md:pb-8 pb-4 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+      Design System-Systems thinking skills
+    </h4>
+    <p className="text-dark opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+       
+    </p>
+    </div>
+
     
 
 
     <div className="pt-10 mb-6 md:mt-11">
     <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
-      Solutions
+      Solutions-Show Visual, Interaction Design, & Prototyping skills
     </h4>
 
     <div className="py-11">

@@ -8,7 +8,12 @@ import Contact from '../pages/Contact'
 import flowchart from '../assets/images/marble-user flow.svg'
 import splash from '../assets/images/marble-splash screen.svg'
 import {Link} from 'react-router-dom'
+import nav from '../assets/images/marble-nav.svg'
+import fees from '../assets/images/marble-transparency.svg'
 
+
+
+// <div className="md:my-11 my-10 mx-auto flex flex-col justify-center w-11/12 md:w-8/12"></div>
 
 
 const Marble = () => {
@@ -27,7 +32,7 @@ const Marble = () => {
 
     <div className="md:my-11 my-10 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     {/* Intro */}
-    <div className="mb-10 flex justify-between flex-wrap w-10/12 md:w-10/12">
+    <div className="mb-10 flex justify-between flex-wrap w-11/12 md:w-10/12">
      <div className="mb-4 md:mb-0">
        <h4 className="font-neue font-medium pb-2 text-base md:text-xl text-dark">What I Did</h4>
        <ul className="font-neue text-dark opacity-70 text-lg leading-loose">
@@ -159,52 +164,60 @@ const Marble = () => {
     <div className="mb-8 mt-10">
        <img src={hmw} loading='lazy' alt="hmw-need statement"/> 
     </div>
-   
+    </div>
+    </div>
 
 
-    <p className="text-dark pt-10 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+  <div className="md:my-11 my-10 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
+  <p className="text-dark pt-10 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       User Flow
     </p>
+  </div>
     <div className="mb-8 mt-4">
       <img src={flowchart} loading='lazy' alt="user flow/IA"/> 
     </div>
-    </div>
+   
 
 
 
-    <div className="pt-10 mb-6 md:mt-11">
+  <div className="md:pt-11 md:my-11 my-10 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Solutions
     </h4>
+  </div>
 
-    <div className="py-11">
+  <div className="py-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
-      Designing for transaparency in system and transaction status
+      Designing for transparency in system and transaction status
     </p>
-    
-    </div>
+  </div>
+  <div className="mb-8 mt-4">
+    <img src={fees} loading='lazy' alt="Transaction fees"/> 
+  </div>
 
-    <div className="py-11">
+
+
+  <div className="py-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
       Designing for better app navigation and readability
     </p>
-   
-    </div>
+  </div>
+  <div className="mb-8 mt-4">
+    <img src={nav} loading='lazy' alt="Navigation & Readability"/> 
+  </div>
 
 
-    <div className="py-11">
+  {/* <div className="py-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <p className="text-dark opacity-80 md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
       Designing a user friendly and intuitive approach to using De-Fi wallets
-    </p>
-    
-    </div>
-    </div>
+  </p>
+  </div> */}
 
 
 
 
     {/* Key Takeaways ad Next Steps */}
-    <div className="pt-10 mb-6 md:mt-11">
+    <div className="pt-10 mb-6 md:mt-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <h4 className="text-dark md:pb-8 pb-6 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Learnings & Takeaways
     </h4>
@@ -217,7 +230,7 @@ const Marble = () => {
     
 
      {/* Next & Previous */}
-     <div className="flex justify-between items-center font-neue" style={{marginTop: "10rem", marginBottom: "3rem"}}>
+     <div className="flex justify-between items-center font-neue mx-auto w-11/12 md:w-8/12" style={{marginTop: "10rem", marginBottom: "3rem"}}>
       <a href="https://www.behance.net/helloijeoma" 
         target="_blank"  rel="noopener noreferrer">
         <p className="text-xs md:text-sm pb-2 opacity-80">Previous</p>
@@ -229,7 +242,7 @@ const Marble = () => {
         <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Bridgecard</h3>
       </Link>
     </div>
-    </div> 
+   
 
    <Contact />           
     </>
