@@ -6,11 +6,12 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Loader from './components/Loader'
 
 
+
 ReactDOM.render(
-  <Router>
+<Router>
   <Suspense fallback={<Loader />}>
     <App />
   </Suspense>
-  </Router>,
+</Router>,
   document.getElementById('root')
 );

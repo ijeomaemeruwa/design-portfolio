@@ -230,7 +230,7 @@ const Bridgecard = () => {
     <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Key Decisions & Solutions
     </h4>
-    <h3 className="text-dark md:text-5xl md:py-11 font-medium md:w-11/12 text-xl font-neue md:leading-tight leading-relaxed">
+    <h3 className="text-dark opacity-50 md:text-5xl md:py-11 font-medium md:w-11/12 text-xl font-neue md:leading-tight leading-relaxed">
       A single source of truth to help users easily and securely merge financial accounts and manage funds.
     </h3>
     </div>

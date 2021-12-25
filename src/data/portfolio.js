@@ -1,8 +1,8 @@
 
-import soon from '../assets/images/coming-soon.svg'
+// import soon from '../assets/images/coming-soon.svg'
 import blockchain from '../assets/images/marble.svg'
 import bridge from '../assets/images/bridgecard.svg'
-
+import staple from '../assets/images/staple.svg'
 
 
 export const PROJECTS = [
@@ -27,7 +27,7 @@ export const PROJECTS = [
    {
       id: 3,
       project: "Figma Spaces",
-      image: soon
+      image: staple
       //link: "/staple"
    }
 ]
