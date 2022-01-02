@@ -9,7 +9,7 @@ import testing from '../assets/images/bridge-testing criteria.svg'
 import splash from '../assets/images/bridge-splash screen.svg'
 import network from '../assets/images/bank-network.mp4'
 import mount from '../assets/images/auto-mount .mp4'
-// import card from '../assets/images/card-request.gif'
+
 
 import card from '../assets/images/card-request.mp4'
 import security from '../assets/images/picture-password.mp4'
@@ -211,7 +211,7 @@ const Bridgecard = () => {
     </p>
 
     <p className="text-dark mt-6 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      Insights & User Feedback 
+      Insights & User Feedback
     </p>
     <p className="text-dark mt-2 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       Based on user feedback, the design went through 3 iterations and yielded more positive feedback and 

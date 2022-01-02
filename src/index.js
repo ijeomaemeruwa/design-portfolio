@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
@@ -9,9 +9,7 @@ import Loader from './components/Loader'
 
 ReactDOM.render(
 <Router>
-  <Suspense fallback={<Loader />}>
-    <App />
-  </Suspense>
+  <App />
 </Router>,
   document.getElementById('root')
 );

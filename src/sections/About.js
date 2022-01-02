@@ -1,8 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-//in <span className="opacity-60">Blockchain</span>, <span className="opacity-60">FinTech</span>, and <span className="opacity-60">SaaS</span> technologies, 
-
 
 const About = () => {
 return (

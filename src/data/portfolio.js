@@ -6,20 +6,14 @@ import staple from '../assets/images/staple.svg'
 
 
 export const PROJECTS = [
-   //  {
-   //     id: 1,
-   //     project: "Relay",
-   //     image: relay,
-   //     link: "/relay"
-   //  },
-    {
-      id: 2,
+   {
+      id: 1,
       project: "Marble",
       image: blockchain,
       link: "/marble-wallet"
    },
    {
-      id: 3,
+      id: 2,
       project: "Bridgecard",
       image: bridge,
       link: "/bridgecard"
@@ -27,7 +21,7 @@ export const PROJECTS = [
    {
       id: 3,
       project: "Figma Spaces",
-      image: staple
-      //link: "/staple"
+      image: staple,
+      link: "/staple"
    }
 ]
