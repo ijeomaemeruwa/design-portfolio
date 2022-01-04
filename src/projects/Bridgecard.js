@@ -184,7 +184,7 @@ const Bridgecard = () => {
       Design Opportinities
     </h4>
     <p className="text-dark md:mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      Based off the prioritized ideas, we visualized and implemented these solutions and designed a <b>user flow</b> and <b>low-fidelity</b> wireframes to highlight users' journey and key touchpoints that described tasks to help users accomplish goals
+      After priorizing solutions, we visualized and implemented these solutions and designed a <b>user flow</b> and <b>low-fidelity</b> wireframes to highlight users' journey and key touchpoints that described tasks to help users accomplish goals
       and focused on the key functional aspects to test the specific user paths, respectively.
     </p>
     </div>
@@ -324,10 +324,10 @@ const Bridgecard = () => {
         <p className="text-xs md:text-sm pb-2 opacity-80">Previous</p>
         <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Marble-wallet</h3>
       </Link>
-      <div>
-        <p className="text-xs md:text-sm pb-2 opacity-80">Next</p>
-        <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Staple-Coming Soon</h3>
-      </div>
+      <Link to="/staple">
+       <p className="text-xs md:text-sm pb-2 opacity-80">Previous</p>
+       <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Staple</h3>
+      </Link>
     </div>
 
 
