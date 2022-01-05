@@ -8,8 +8,12 @@ import Contact from '../pages/Contact'
 import flowchart from '../assets/images/marble-user flow.svg'
 import splash from '../assets/images/marble-splash screen.svg'
 import {Link} from 'react-router-dom'
+import onboarding from '../assets/images/onboarding.svg'
+import security from '../assets/images/security.svg'
+import address from '../assets/images/address.svg'
+
 import nav from '../assets/images/marble-nav.svg'
-import fees from '../assets/images/marble-transparency.svg'
+import fees from '../assets/images/marble-transaparency.svg'
 
 
 
@@ -199,7 +203,7 @@ const Marble = () => {
     </p>
   </div>
   <div className="mb-8 mt-4">
-    
+    <img src={onboarding} loading='lazy' alt="Onboarding"/> 
   </div>
 
 
@@ -215,7 +219,7 @@ const Marble = () => {
     </p>
   </div>
   <div className="mb-8 mt-4">
-    
+    <img src={security} loading='lazy' alt="Security"/> 
   </div>
 
 
@@ -232,7 +236,7 @@ const Marble = () => {
     </p>
   </div>
   <div className="mb-8 mt-4">
-    <img src={nav} loading='lazy' alt="Navigation & Readability"/> 
+    <img src={address} loading='lazy' alt="Readability-Wallet addresses"/> 
   </div>
   <div className="py-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <p className="text-dark md:mt-10 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
