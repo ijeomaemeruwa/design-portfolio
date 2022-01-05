@@ -186,17 +186,17 @@ const Marble = () => {
 
 
 
-  <div className="md:pt-11 md:my-11 my-10 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
-    <h4 className="text-dark pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+  <div className="md:pt-11 md:my-11 my-6 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
+    <h4 className="text-dark pb-2 md:pb-8 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
       Solutions
     </h4>
   </div>
 
   <div className="py-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
-    <p className="text-dark md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
+    <p className="text-dark md:text-4xl md:w-11/12 text-2xl font-neue md:leading-relaxed leading-relaxed">
       Designing a convenient way to improve adoption
     </p>
-    <p className="text-dark md:mt-10 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-10 mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
        Most blockchain wallets or apps today focus on advanced users and don't explain
        processes well enough to onboard novice users. Non-custodial wallets don't provide acess to customer service
        therefore, an easy way to improve adoption is providing a clear setup process and FAQs that can help.
@@ -209,10 +209,10 @@ const Marble = () => {
 
 
   <div className="py-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
-    <p className="text-dark md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
+    <p className="text-dark md:text-4xl md:w-11/12 text-2xl font-neue md:leading-relaxed leading-relaxed">
       Designing a better way to keep user details secure and easily retrievable
     </p>
-    <p className="text-dark md:mt-10 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-10 mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       Ethereum wallets require users to write down or copy their seed phrase which can be inconvenient because they may forget or not be fully 
       aware of it's importance. By using email verification and biometric authentication, 2 Factor Authentication is enabled, keys are encrypted and stored on the users device,
       making sure no one has access without the users permission and can quickly initiate account recovery with the built in account backup function.
@@ -226,10 +226,10 @@ const Marble = () => {
 
 
   <div className="py-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
-    <p className="text-dark md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
+    <p className="text-dark md:text-4xl md:w-11/12 text-2xl font-neue md:leading-relaxed leading-relaxed">
       Designing for better app navigation and readability to improve user experience
     </p>
-    <p className="text-dark md:mt-10 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-10 mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       Wallet addresses are too long and can't be remembered or recognized easily leading to
       transaction errors that can't be reversed. Ethereum Name Service (ENS) solves this problem
       by allowing users create unique readable domain names like "john.eth" that are easy to read and remember.
@@ -239,7 +239,7 @@ const Marble = () => {
     <img src={address} loading='lazy' alt="Readability-Wallet addresses"/> 
   </div>
   <div className="py-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
-    <p className="text-dark md:mt-10 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-10 mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       Using easy to understand text and labelling instead of industry specific, users can quickly understand the context of what they
       need to do to accomplish their goals.
     </p>
@@ -252,10 +252,10 @@ const Marble = () => {
 
 
   <div className="py-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
-    <p className="text-dark md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
+    <p className="text-dark md:text-4xl md:w-11/12 text-2xl font-neue md:leading-relaxed leading-relaxed">
       Designing for transparency in system and transaction status
     </p>
-    <p className="text-dark md:mt-10 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+    <p className="text-dark md:mt-10 mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
       For every transaction on a De-fi wallet users need to pay certain fees depending on
       the network used. These fees can be high, so it is important to build trust by helping users see a clear context
       and breakdown of the network fees, be educated on what they mean, receive instant feedback on transaction status.
