@@ -5,7 +5,10 @@ import Overview from '../structure/Overview'
 import {Link} from 'react-router-dom'
 import splash from '../assets/images/staple-splash.svg'
 import system from '../assets/images/style-guide.svg'
-
+import setup from '../assets/images/setup.svg'
+import analytic from '../assets/images/analytic.svg'
+import metric from '../assets/images/metric.svg'
+import customer from '../assets/images/customer.svg'
 
 const Staple = () => {
     return (
@@ -115,21 +118,7 @@ const Staple = () => {
       </ul>
     </div>
 
-
-
-    <div className="pt-10 mb-6 md:mt-11">
-    <h4 className="text-dark md:pb-8 pb-4 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
-      Design
-    </h4>
     </div>
-   
-    <p className="text-dark md:text-3xl text-2xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      Design System
-    </p>
-    </div>
-    <div className="mb-8 mt-6">
-     <img src={system} loading="lazy" alt="style guide"/> 
-    </div> 
    
     
 
@@ -149,8 +138,8 @@ const Staple = () => {
       Analytical dashboard to help users view relevant data and insights at a glance
     </p>
     </div>
-    <div>
-
+    <div className="mb-8 mt-6">
+     <img src={analytic} loading="lazy" alt="analytic dashboard"/> 
     </div>
 
 
@@ -161,44 +150,68 @@ const Staple = () => {
        and easy connect all business tools into one central space.
     </p>
     </div>
-    <div>
-      
+    <div className="mb-8 mt-6">
+     <img src={setup} loading="lazy" alt="Quick setup"/> 
     </div>
 
 
     <div className="pt-10 mb-6 md:mt-8 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <p className="text-dark md:text-4xl text-3xl md:py-5 font-neue md:leading-tight leading-relaxed">
-       Business metrics
+       View Business metrics in real-time and get insight that help businesses make plans that
+       help them in the future.
     </p>
     </div>
-    <div>
-      
+    <div className="mb-8 mt-6">
+      <img src={metric} loading="lazy" alt="Business metrics"/> 
     </div>
 
 
     <div className="pt-10 mb-6 md:mt-8 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <p className="text-dark md:text-4xl text-3xl md:py-5 font-neue md:leading-tight leading-relaxed">
-       Customer insights
+      View customer activities and learn why customers cancel to help reduce churn and help with
+      billing issues.
     </p>
     </div>
-    <div>
-      
+    <div className="mb-8 mt-6">
+      <img src={customer} loading="lazy" alt="customer insight"/> 
     </div>
 
 
-    <div className="pt-10 mb-6 md:mt-8 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
+    {/* <div className="pt-10 mb-6 md:mt-8 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
     <p className="text-dark md:text-4xl text-3xl md:py-5 font-neue md:leading-tight leading-relaxed">
        Billing insights
     </p>
     </div>
     <div>
       
+    </div> */}
+
+
+
+
+    <div className="pt-10 mb-6 md:mt-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
+    <h4 className="text-dark md:pb-8 pb-4 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+      Design System
+    </h4>
     </div>
+    <div className="mb-8 mt-6">
+     <img src={system} loading="lazy" alt="style guide"/> 
+    </div> 
+  
 
 
+
+    <div className="pt-10 mb-6 md:mt-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
+    <h4 className="text-dark md:pb-8 pb-4 text-2xl md:text-5xl font-neue font-medium md:leading-tight tracking-tighter">
+      Takeaways and Learnings
+    </h4>
+    <p className="text-dark opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
+      Understanding different categories of dashboards and how to properly represent data helped
+      me make better design decisions to reach business goals and improve the users experience.
+    </p>
+    </div>
   
-  
-  
+
 
   {/* Next & Previous */}
    <div className="flex justify-between items-center font-neue mx-auto w-11/12 md:w-8/12" style={{marginTop: "10rem", marginBottom: "3rem"}}>
