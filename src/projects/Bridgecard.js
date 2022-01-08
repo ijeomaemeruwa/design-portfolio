@@ -7,12 +7,12 @@ import hmw from '../assets/images/bridge-hmw.svg'
 import persona from '../assets/images/bridge-persona.svg'
 import testing from '../assets/images/bridge-testing criteria.svg'
 import splash from '../assets/images/bridge-splash screen.svg'
-import network from '../assets/images/bank-network.mp4'
-import mount from '../assets/images/auto-mount .mp4'
+import network from '../assets/images/bank-notification.mov'
+import mount from '../assets/images/auto-payment.mov'
 
 
-import card from '../assets/images/card-request.mp4'
-import security from '../assets/images/picture-password.mp4'
+import card from '../assets/images/card-request.mov'
+import security from '../assets/images/picture-security.mov'
 import Contact from '../pages/Contact'
 import {Link} from 'react-router-dom'
 

@@ -34,17 +34,26 @@ const Nav = () => {
                </NavLink>
              </li> */}
              
-             <li className="mx-6">
+             <li className="mx-6 hover:text-blue">
                <NavLink activeClassName="active" to="/about-me">
                 About
                </NavLink>
              </li>
 
-             <li className="mx-6">
+             <li className="mx-6 hover:text-blue">
              <a href="https://helloijeoma.medium.com/" 
                 target="_blank"  rel="noopener noreferrer"
               >
                 Blog 
+             </a>
+             </li>
+
+             
+             <li className="mx-6 hover:text-blue">
+             <a href="mailto:helloijeoma@gmail.com" 
+                target="_blank"  rel="noopener noreferrer"
+              >
+                Contact 
              </a>
              </li>
           
