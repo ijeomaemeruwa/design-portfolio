@@ -30,7 +30,7 @@ const Footer = () => {
            <p className="pb-2 md:text-lg text-base font-medium font-neue tracking-tighter">Follow me</p>
             <ul className="md:text-lg text-base text-dark font-normal opacity-70">
             <li className="pb-2 hover:opacity-100 hover:text-blue">
-              <a href="https://www.behance.net/helloijeoma" 
+              <a href="https://dribbble.com/helloijeoma" 
                 target="_blank"  rel="noopener noreferrer">
                 Dribbble
               </a>
