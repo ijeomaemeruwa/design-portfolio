@@ -8,7 +8,7 @@ import oldui from '../assets/images/kiwi-old.svg'
 import findings from '../assets/images/kiwi-findings.svg'
 import heuristics from '../assets/images/kiwi-heuristics.svg'
 import library from '../assets/images/kiwi-ui.svg'
-
+import web from '../assets/images/kiwi-web.svg'
 import security from '../assets/images/kiwi-security.svg'
 import survey from '../assets/images/kiwi-survey.svg'
 import portfolio from '../assets/images/kiwi-portfolio.svg'
@@ -279,6 +279,17 @@ const Kiwi = () => {
     </div>
     <div className="mb-8 mt-3">
       <img src={edu} alt="Education and learning"/> 
+    </div>
+
+
+
+    <div className="pt-11 mx-auto flex flex-col justify-center w-11/12 md:w-8/12">
+    <p className="text-dark font-semibold md:text-4xl md:w-11/12 text-xl font-neue md:leading-relaxed leading-relaxed">
+      KIWI WEB DESIGN
+    </p>
+    </div>
+    <div className="mb-8 mt-3">
+      <img src={web} alt="Kiwi web design"/> 
     </div>
 
 
