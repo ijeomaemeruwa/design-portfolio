@@ -10,6 +10,9 @@ import analytic from '../assets/images/analytic.svg'
 import metric from '../assets/images/metric.svg'
 import customer from '../assets/images/customer.svg'
 
+
+
+
 const Staple = () => {
     return (
     <>
@@ -215,13 +218,13 @@ const Staple = () => {
 
   {/* Next & Previous */}
    <div className="flex justify-between items-center font-neue mx-auto w-11/12 md:w-8/12" style={{marginTop: "10rem", marginBottom: "3rem"}}>
-    <Link to="/bridgecard">
+    <Link to="/kiwi">
       <p className="text-xs md:text-sm pb-2 opacity-80">Previous</p>
-      <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Bridgecard</h3>
+      <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">KIWI</h3>
     </Link>
-    <Link to="/marble-wallet">
+    <Link to="/bridgecard">
       <p className="text-xs md:text-sm pb-2 opacity-80">Next</p>
-      <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Marble-wallet</h3>
+      <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Bridgecard</h3>
     </Link>
   </div>
 

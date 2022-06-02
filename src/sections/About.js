@@ -17,7 +17,7 @@ return (
     <div className="mt-8 md:mt-6 md:mb-11">
     <Link to="/about-me">
       <button className="bg-gray text-dark md:text-base text-sm py-3 px-7 md:py-4 md:px-10 font-neue font-medium rounded-lg hover:opacity-80 animation">
-        Learn More
+        Learn More About me
       </button>
     </Link>
    </div>

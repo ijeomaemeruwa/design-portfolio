@@ -3,7 +3,7 @@ import {PROJECTS} from '../data/portfolio'
 import Card from '../components/Card'
 import {Link} from 'react-router-dom'
 // import ui from '../assets/images/Frame 11.jpg'
-import ui from '../assets/images/behance.svg'
+//import ui from '../assets/images/behance.svg'
 
 //  {/* <div className="pt-8">
 //       <h4 className="font-poppins text-dark text-xl md:text-2xl font-semibold w-11/12 tracking-tight leading-tight">
@@ -60,17 +60,29 @@ const SelectedProjects = () => {
               alt={data.title}
               className="w-full"
             />
+             <div className="pt-8 pb-11">
+            <h3 className="font-neue font-semibold text-dark md:text-3xl text-2xl pb-3">
+              {data.title}
+            </h3>
+            <p className="font-neue font-normal opacity-60 text-dark md:text-xl text-sm pb-3">
+             {data.subtitle}
+            </p>
+            <button className="bg-gray text-dark md:text-base text-sm mt-2 md:mt-4 py-2 px-5 md:py-3 md:px-7 font-neue font-normal rounded-lg hover:opacity-80 animation">
+              {data.lead}
+            </button>
+          </div>
           </Card>
+
         </Link>
         ))
         }  
 
-      <a href="https://www.behance.net/helloijeoma" 
+      {/* <a href="https://www.behance.net/helloijeoma" 
          target="_blank"  rel="noopener noreferrer">
        <Card>
        <img src={ui} alt="ui-explorations" />
        </Card>
-      </a>
+      </a> */}
       </div>
 
     </div> 

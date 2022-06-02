@@ -1,3 +1,5 @@
+
+
 *, ::before, ::after {
   box-sizing: border-box;
   margin: 0;
@@ -25,7 +27,7 @@ body {
     font-weight: 500;
     background-color: #f5f5f5;
     padding: 5px 20px 5px 20px;
-    border-radius: 20px;
+    border-radius: 4px;
 }
 
 .scroll {
@@ -76,6 +78,10 @@ body {
 
 :root {
     --animate-delay: 0.5s;
+}
+
+.prototype {
+    width: 1000px;
 }
 
 

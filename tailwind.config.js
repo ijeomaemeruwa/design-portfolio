@@ -11,7 +11,8 @@ module.exports = {
         poppins: ['Urbanist', 'sans-serif'],
         dmono: ['Roboto Mono', 'monospace'],
         righteous: ['Righteous', 'cursive'],
-        neue: ['Neue Montreal', 'sans-serif']
+        //neue: ['Neue Montreal', 'sans-serif']
+        neue: ['Space Grotesk', 'sans-serif']
       },
       colors: {
         dark: "#1c1c1c",

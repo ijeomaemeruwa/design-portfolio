@@ -15,6 +15,7 @@ import TopScroll from './components/TopScroll'
 import Loader from './components/Loader'
 
 const Bridgecard = React.lazy(() => import('./projects/Bridgecard'));
+const Kiwi = React.lazy(() => import('./projects/Kiwi'));
 const Marble = React.lazy(() => import('./projects/Marble'));
 const Staple = React.lazy(() => import('./projects/Staple'));
 
@@ -38,6 +39,14 @@ return (
      <Bridgecard />
     </Suspense >
    </Route>
+
+   <Route exact path="/kiwi">
+    <Suspense fallback={<Loader />}>
+     <Kiwi />
+    </Suspense >
+   </Route>
+
+
 
    <Route exact path="/marble-wallet">
     <Suspense fallback={<Loader />}>

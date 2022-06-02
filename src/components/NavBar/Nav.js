@@ -28,11 +28,11 @@ const Nav = () => {
 
 
           <div className="font-neue text-lg font-regular hidden lg:flex justify-center items-center list-none text-dark pb-3">
-            {/* <li className="mx-6">
+            <li className="mx-6">
                <NavLink activeClassName="active" to="/">
                 Home
                </NavLink>
-             </li> */}
+             </li>
              
              <li className="mx-6 hover:text-blue">
                <NavLink activeClassName="active" to="/about-me">

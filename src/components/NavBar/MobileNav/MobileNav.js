@@ -13,9 +13,9 @@ const MobileNav = ({open, toggle}) => {
     <StyledMenu open={open} onClick={toggle}>
     <div className="flex flex-col text-4xl font-neue text-white mt-11">
         
-    {/* <Link to="/" className="mb-7 mt-11 hover:text-blue tracking-tighter" onClick={toggle}>
+    <Link to="/" className="mb-7 mt-11 hover:text-blue tracking-tighter" onClick={toggle}>
         Home
-    </Link> */}
+    </Link>
 
     <Link to="/about-me" className="mt-11 mb-9 hover:text-blue tracking-tighter" onClick={toggle}>
         About
