@@ -282,19 +282,14 @@ const Marble = () => {
 
      {/* Next & Previous */}
      <div className="flex justify-between items-center font-neue mx-auto w-11/12 md:w-8/12" style={{marginTop: "10rem", marginBottom: "3rem"}}>
-      {/* <a href="https://www.behance.net/helloijeoma" 
-        target="_blank"  rel="noopener noreferrer">
-        <p className="text-xs md:text-sm pb-2 opacity-80">Previous</p>
-        <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">View Behance</h3>
-      </a> */}
       <Link to="/staple">
         <p className="text-xs md:text-sm pb-2 opacity-80">Previous</p>
         <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Staple</h3>
       </Link>
 
-      <Link to="/bridgecard">
+      <Link to="/asteria">
         <p className="text-xs md:text-sm pb-2 opacity-80">Next</p>
-        <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Bridgecard</h3>
+        <h3 className="text-xl md:text-5xl font-medium hover:text-blue cursor-pointer">Asteria</h3>
       </Link>
     </div>
    

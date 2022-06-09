@@ -18,7 +18,8 @@ const Bridgecard = React.lazy(() => import('./projects/Bridgecard'));
 const Kiwi = React.lazy(() => import('./projects/Kiwi'));
 const Marble = React.lazy(() => import('./projects/Marble'));
 const Staple = React.lazy(() => import('./projects/Staple'));
-
+const Asteria = React.lazy(() => import('./projects/Asteria'));
+//Fevel Suite
 
 
 const App = () => { 
@@ -47,18 +48,26 @@ return (
    </Route>
 
 
-
    <Route exact path="/marble-wallet">
     <Suspense fallback={<Loader />}>
      <Marble />
     </Suspense >
    </Route>
 
+
    <Route exact path="/staple">
     <Suspense fallback={<Loader />}>
       <Staple />
     </Suspense >
    </Route>
+
+   <Route exact path="/asteria">
+    <Suspense fallback={<Loader />}>
+     <Asteria />
+    </Suspense >
+   </Route>
+
+   {/* Fevel Suite */}
 
   </Switch>  
 <ScrollToTop /> 
