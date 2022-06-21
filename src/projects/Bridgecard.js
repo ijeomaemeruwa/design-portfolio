@@ -175,7 +175,7 @@ const Bridgecard = () => {
       interviews to get contextual qualitative data about the problems/motivations, understand current behavior, and validate market fit.
     </p>
     <p className="text-dark md:mt-6 opacity-80 md:text-2xl text-xl font-neue md:w-10/12 md:leading-loose leading-relaxed">
-      We interviewed 20 participants with the criteria being that users had at least 2 bank accounts, 2 debit cards and used smartphones.
+      We interviewed 10 participants with the criteria being that users had at least 2 bank accounts, 2 debit cards and used smartphones.
     </p>
     <div className="mb-8 mt-10">
       <img src={research} alt="research goals and questions"/> 
