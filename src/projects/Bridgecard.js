@@ -189,7 +189,7 @@ const Bridgecard = () => {
    {/* Research Highlight */}
     <div className="pt-10 mb-6 md:mt-11">
     <h3 className="text-dark opacity-50 md:text-5xl md:py-11 font-medium md:w-11/12 text-xl font-neue md:leading-tight leading-relaxed">
-      "17/20 users used one out of multiple cards, actively. Reasons ranged from preventing loss, transaction charges and tracking expenses. Thereby validating market fit"
+      "8/10 users used one out of multiple cards, actively. Reasons ranged from preventing loss, transaction charges and tracking expenses. Thereby validating market fit"
     </h3>
     </div>
 
