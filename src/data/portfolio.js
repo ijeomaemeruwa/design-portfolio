@@ -46,22 +46,22 @@ export const PROJECTS = [
       subtitle: "Helping businesses track revenue and subscriptions",
       lead: "Read Case Study"
    },
-   // {
-   //    id: 5,
-   //    project: "Marble Wallet",
-   //    image: marble,
-   //    link: "/marble-wallet",
-   //    title: "Marble Wallet",
-   //    subtitle: "Simplifying crytocurrency trading",
-   //    lead: "Read Case Study"
-   // },
-   // {
-   //    id: 6,
-   //    project: "Asteria",
-   //    image: asteria,
-   //    link: "/asteria",
-   //    title: "Asteria",
-   //    subtitle: "Automated Asset Management System",
-   //    lead: "Read Case Study"
-   // },
+   {
+      id: 5,
+      project: "Marble Wallet",
+      image: marble,
+      link: "/marble-wallet",
+      title: "Marble Wallet",
+      subtitle: "Simplifying crytocurrency trading",
+      lead: "Read Case Study"
+   },
+   {
+      id: 6,
+      project: "Asteria",
+      image: asteria,
+      link: "/asteria",
+      title: "Asteria",
+      subtitle: "Automated Asset Management System",
+      lead: "Read Case Study"
+   },
 ]
