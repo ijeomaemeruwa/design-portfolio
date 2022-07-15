@@ -10,15 +10,15 @@ import ferry from '../assets/images/ferry.svg'
 
 export const PROJECTS = [
 
-   {
-      id: 1,
-      project: "Ferry Suite",
-      image: ferry,
-      // link: "/ferry",
-      title: "Ferry suite",
-      subtitle: "Business management on autopilot",
-      lead: "COMING SOON"
-   },
+   // {
+   //    id: 1,
+   //    project: "Ferry Suite",
+   //    image: ferry,
+   //    // link: "/ferry",
+   //    title: "Ferry suite",
+   //    subtitle: "Business management on autopilot",
+   //    lead: "COMING SOON"
+   // },
    {
       id: 2,
       project: "Bridgecard",
@@ -46,15 +46,15 @@ export const PROJECTS = [
       subtitle: "Helping businesses track revenue and subscriptions",
       lead: "Read Case Study"
    },
-   {
-      id: 5,
-      project: "Marble Wallet",
-      image: marble,
-      link: "/marble-wallet",
-      title: "Marble Wallet",
-      subtitle: "Simplifying crytocurrency trading",
-      lead: "Read Case Study"
-   },
+   // {
+   //    id: 5,
+   //    project: "Marble Wallet",
+   //    image: marble,
+   //    link: "/marble-wallet",
+   //    title: "Marble Wallet",
+   //    subtitle: "Simplifying crytocurrency trading",
+   //    lead: "Read Case Study"
+   // },
    {
       id: 6,
       project: "Asteria",
