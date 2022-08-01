@@ -1,11 +1,11 @@
 
 // import soon from '../assets/images/coming-soon.svg'
-import blockchain from '../assets/images/kiwi.svg'
+// import blockchain from '../assets/images/kiwi.svg'
 import bridge from '../assets/images/bridgecard.svg'
 import staple from '../assets/images/staple.svg'
-import ferry from '../assets/images/ferry.svg'
-// import marble from '../assets/images/marble.svg'
-// import asteria from '../assets/images/asteria.png'
+// import ferry from '../assets/images/ferry.svg'
+import marble from '../assets/images/marble.svg'
+import asteria from '../assets/images/asteria.png'
 
 
 export const PROJECTS = [
